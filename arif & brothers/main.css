@@ -1,3 +1,9 @@
+body{
+	background-image: linear-gradient(to right, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5)50%), url("images/fruit-bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
 nav{
 	background-color: #477D39;
 }
@@ -39,6 +45,7 @@ ul li a{
 }
 #name{
 	width: 209px;
+	min-width: 70px;
 
 }
 #selection{
@@ -54,6 +61,7 @@ label{
 }
 #date{
 	width: 250px;
+	min-width: 70px;
 }
 #addbtn{
 	width: 250px;
@@ -89,8 +97,23 @@ label{
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,121,9,0.7567401960784313) 0%, rgba(0,212,255,1) 100%);
 }
 input{
-	width: 100px;
+	width: 85px;
 }
 .edit{
-	width: 100px;
+	width: 90px;
+	text-decoration: none;
+	background-color: white;
+	color: #000;
+}
+
+@media (max-width: 600px){
+
+	#selection-paid{
+		margin-right: 40px;
+
+	}
+	.input-table2{
+		width: 40px !important;
+	}
+
 }

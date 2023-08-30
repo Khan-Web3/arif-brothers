@@ -1,3 +1,7 @@
+*{
+	text-transform: capitalize;
+}
+
 h3{
 	color: #fff;
 
@@ -22,11 +26,27 @@ body{
 
 }
 input{
-	width: 75px !important;
+	width: 85px !important;
 }
 .editbtn{
 	width: 90px;
 	text-decoration: none;
 	background-color: white;
 	color: #000;
+}
+
+
+
+@media(max-width: 600px){
+	.table-input
+	{
+		width: 40px !important;
+	}
+	#calender{
+		width: 40px !important;
+	}
+	.editbtn{
+		width: 40px !important;
+
+	}
 }

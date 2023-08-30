@@ -90,9 +90,9 @@
 				<div class="container-fluid mt-5 detail-info">
 					<div class="container-fluid text-center">
 						<h4 class="bg-dark p-3 mb-4">زمیندار کھاتہ</h4>
-						<div class="container">
+						<div class="container-fluid">
 							<form class="form-group">
-								<div class="container d-flex align-items-center justify-content-end">
+								<div class="container-fluid d-flex align-items-center justify-content-end">
 									<label class="order-1 ml-5" id="names">نام</label>
 									<select class="form-control ml-4" id="selection">
 										<option>1</option>
@@ -104,7 +104,7 @@
 
 								</div>
 
-								<div class="container d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
 									<label class="order-1 ml-5" id="place"> جگہ</label>
 									<select class="form-control ml-4" id="selection">
 										<option>1</option>
@@ -116,27 +116,27 @@
 
 								</div>
 
-								<div class="container d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
 									<label class="order-1 ml-4" id="date2"> تاریخ </label>
 									<input type="date" class="form-control" name="" id="date">
 
 								</div>
 
-								<div class="container d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
 									<label class="order-1 ml-3" id="detail"> تفصیل </label>
 									<input type="text" class="form-control" name="" id="date">
 
 								</div>
 
-								<div class="container d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
 									<label class="order-1 ml-5" id="cash"> رقم </label>
 									<input type="text" class="form-control" name="" id="date">
 
 								</div>
 
-								<div class="container d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
 									<label class="order-1 ml-4 ml-5"> بنام / جمع </label>
-									<select class="form-control ml-4" id="selection">
+									<select class="form-control ml-4" id="selection-paid">
 										<option>paid</option>
 										<option>1</option>
 										<option>1</option>
@@ -147,7 +147,7 @@
 								</div>
 
 								<div class="container d-flex align-items-center justify-content-end mt-4 mr-5">
-									<button class="btn bg-dark form-control" id="addbtn">add</button>
+									<button class="btn bg-dark form-control mb-4" id="addbtn">add</button>
 
 								</div>
 
@@ -225,27 +225,27 @@
 					</div>
 
 					<div class="container-fluid table-box">
-						<table class="container-fluid">
-							<tr class="container-fluid d-flex align-items-center justify-content-between">
-									<th class="order-3">نمبر</th>
-									<th class="order-2">تبدیل</th>
-									<th class="order-1">تاریخ</th>
-									<th>بنام/جمع</th>
-									<th>رقم</th>
-									<th>تفصیل</th>
-									<th>جگہ</th>
-									<th>نام</th>
+						<table class="w-100">
+							<tr class="d-flex align-items-center flex-row-reverse justify-content-between">
+									<th class=""><label>نمبر  </label></th>
+									<th class=""><label>تبدیل  </label></th>
+									<th class=""><label>تاریخ  </label></th>
+									<th><label>بنام/جمع  </label></th>
+									<th><label>رقم  </label></th>
+									<th><label>تفصیل  </label></th>
+									<th><label>جگہ  </label></th>
+									<th><label>نام  </label></th>
 								
 							</tr>
-							<tr class=" container-fluid d-flex align-items-center justify-content-around">
-								<td class="order-3 w-100">1</td>
-								<td class="order-2"><button class="btn edit w-50 text-center">edit/delete</button></td>
-								<td class="order-1 "><input type="date" name=""></td>
-								<td class=""><input type="text" placeholder="paid" name=""></td>
-								<td><input type="text" placeholder="2000" name=""></td>
-								<td><input type="text" placeholder="detail" name="" class="detail"></td>
-								<td><input type="text" placeholder="2000" name=""></td>
-								<td><input type="text" placeholder="2000" name=""></td>
+							<tr class=" w-100 d-flex align-items-center flex-row-reverse justify-content-between">
+								<td><label>1</label></td>
+								<td><a class="edit p-1 text-center">edit/delete</a></td>
+								<td><input type="date" name="" class="input-table2"></td>
+								<td><input type="text" placeholder="paid" name="" class="input-table2"></td>
+								<td><input type="text" placeholder="2000" name="" class="input-table2"></td>
+								<td><input type="text" placeholder="detail" name="" class="input-table2"></td>
+								<td><input type="text" placeholder="2000" name="" class="input-table2"></td>
+								<td><input type="text" placeholder="2000" name="" class="input-table2"></td>
 
 							</tr>
 						</table>
