@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>arif & brothers</title>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
@@ -48,7 +49,7 @@
 	</nav>
 
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row" id="grid-box1">
 			<div class="col-md-3 col-sm-12">
 				<div class="container list-detail">
 					<h4>activities</h4>
@@ -92,7 +93,7 @@
 						<h4 class="bg-dark p-3 mb-4">زمیندار کھاتہ</h4>
 						<div class="container-fluid">
 							<form class="form-group">
-								<div class="container-fluid d-flex align-items-center justify-content-end">
+								<div class="container-fluid d-flex align-items-center justify-content-center">
 									<label class="order-1 ml-5" id="names">نام</label>
 									<select class="form-control ml-4" id="selection">
 										<option>1</option>
@@ -104,7 +105,7 @@
 
 								</div>
 
-								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-center mt-4">
 									<label class="order-1 ml-5" id="place"> جگہ</label>
 									<select class="form-control ml-4" id="selection">
 										<option>1</option>
@@ -116,25 +117,25 @@
 
 								</div>
 
-								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-center mt-4">
 									<label class="order-1 ml-4" id="date2"> تاریخ </label>
 									<input type="date" class="form-control" name="" id="date">
 
 								</div>
 
-								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-center mt-4">
 									<label class="order-1 ml-3" id="detail"> تفصیل </label>
 									<input type="text" class="form-control" name="" id="date">
 
 								</div>
 
-								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-center mt-4">
 									<label class="order-1 ml-5" id="cash"> رقم </label>
 									<input type="text" class="form-control" name="" id="date">
 
 								</div>
 
-								<div class="container-fluid d-flex align-items-center justify-content-end mt-4">
+								<div class="container-fluid d-flex align-items-center justify-content-center mt-4">
 									<label class="order-1 ml-4 ml-5"> بنام / جمع </label>
 									<select class="form-control ml-4" id="selection-paid">
 										<option>paid</option>
@@ -146,8 +147,8 @@
 
 								</div>
 
-								<div class="container d-flex align-items-center justify-content-end mt-4 mr-5">
-									<button class="btn bg-dark form-control mb-4" id="addbtn">add</button>
+								<div class="container d-flex align-items-center justify-content-center mt-4 mr-5">
+									<button class="btn bg-dark form-control mb-4 ml-5" id="addbtn">add</button>
 
 								</div>
 
@@ -213,9 +214,9 @@
 
 				<section>
 					<div class="container-fluid mt-4 bg-dark">
-						<div class="container-fluid bg-dark d-flex align-items-center justify-content-end">
-							<button class="btn order-1 ml-5">search</button>
-							<select>
+						<div class="container-fluid bg-dark d-flex align-items-center justify-content-center">
+							<button class="btn order-1 ml-5 ">search</button>
+							<select class="last-sel search-sel">
 								<option>option 1</option>
 								<option>option 2</option>
 								<option>option 3</option>
