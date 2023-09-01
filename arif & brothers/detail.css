@@ -50,3 +50,8 @@ input{
 
 	}
 }
+@media only screen and (max-width: 700px) and (min-width: 600px){
+	.table-input{
+		width: 40px !important;
+	}
+}

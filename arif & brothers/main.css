@@ -117,3 +117,18 @@ input{
 	}
 
 }
+@media only screen and (max-width: 800px) and (min-width: 700px){
+	.input-table2{
+		width: 40px !important;
+	}
+}
+@media only screen and (max-width: 900px) and (min-width: 800px){
+	.input-table2{
+		width: 45px !important;
+	}
+}
+@media only screen and (max-width: 950px) and (min-width: 900px){
+	.input-table2{
+		width: 45px !important;
+	}
+} 
