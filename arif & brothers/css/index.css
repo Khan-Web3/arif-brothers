@@ -10,7 +10,7 @@
 
 .login-box{
 	height: 100vh;
-	background-image: linear-gradient(to right, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url("images/fruit-bg.jpg");
+	background-image: url("../images/fruit-bg.jpg");
 	background-position: center;
 	background-size: cover;
 	/*position: relative;*/
@@ -27,12 +27,12 @@
 	left: 50%;
 	transform: translate(-50%, -50%);*/
 	border-radius: 10px;
-	animation-name: .flip-in-hor-bottom;
+	/*animation-name: .flip-in-hor-bottom;
 	animation-iteration-count: 3;
 	-webkit-animation: flip-in-hor-bottom 0.5s 3 cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: flip-in-hor-bottom 0.5s 3 cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-hor-bottom 0.5s 3 cubic-bezier(0.250, 0.460, 0.450, 0.940) both;*/
 }
-@-webkit-keyframes flip-in-hor-bottom {
+/*@-webkit-keyframes flip-in-hor-bottom {
   0% {
     -webkit-transform: rotateX(80deg);
             transform: rotateX(80deg);
@@ -55,7 +55,7 @@
             transform: rotateX(0);
     opacity: 1;
   }
-}
+}*/
 
 #loginform > h2{
 	font-size: 30px;
@@ -82,14 +82,14 @@ span{
 	border-radius: 5px;
 	text-transform: capitalize;
 }
-.anim{
+/*.anim{
 	animation-name: .heartbeat;
 	animation-iteration-count: infinite;
 	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
 	        animation: heartbeat 1.5s ease-in-out infinite both;
-}
+}*/
 
-@-webkit-keyframes heartbeat {
+/*@-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
             transform: scale(1);
@@ -156,7 +156,7 @@ span{
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
-}
+}*/
 
 
 

@@ -7,7 +7,8 @@ h3{
 
 }
 body{
-	background-image: linear-gradient(to right, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5)50%), url("images/2.jpg");
+	background-image:url('../images/fruit-bg.jpg');
+
 	background-size: cover;
 	background-position: center;
 }
@@ -34,6 +35,11 @@ input{
 	background-color: white;
 	color: #000;
 }
+#footer-grid > div >a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+}
 
 
 
@@ -48,6 +54,12 @@ input{
 	.editbtn{
 		width: 40px !important;
 
+	}
+}
+@media only screen and (max-width: 300px) and (min-width: 200px){
+	#logo-style{
+		font-size: 25px !important;
+		font-weight: 300;
 	}
 }
 @media only screen and (max-width: 400px) and (min-width: 300px){

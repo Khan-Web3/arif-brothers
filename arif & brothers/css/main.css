@@ -1,14 +1,10 @@
-body{
-	background-image: linear-gradient(to right, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5)50%), url("images/1.jpg");
-	background-size: cover;
-	background-position: center;
-}
+
 
 nav{
 	background-color: #477D39;
 }
 .navbar-brand{
-	font-size: 16px;
+	font-size: 26px;
 	font-weight: 400;
 	line-height: 19.36px;
 }
@@ -56,12 +52,16 @@ ul li a{
 }
 #name{
 	width: 209px;
-	min-width: 50px;
+	min-width: 40px;
 
 }
 #selection{
-	width: 318px;
+	width: 200px;
+	min-width: 40px;
 
+}
+#selection-paid{
+	width: 215px !important;
 }
 label{
 	color: #fff;
@@ -71,31 +71,47 @@ label{
 
 }
 #date{
-	width: 250px;
-	min-width: 70px;
+	width: 210px;
+	min-width: 40px;
 }
 #addbtn{
-	width: 250px;
+	width: 255px;
+	margin-left: 35px !important;
 
 }
 #cash{
-	margin-left: 90px !important;
+	margin-left: 55px !important;
 }
 #detail{
 	margin-left: 70px !important;
+	margin-right: 30px !important;
 }
 #date2{
-	margin-left: 75px !important;
+	margin-left: 40px !important;
 }
 #place{
-	margin-left: 78px !important;
+	margin-left: 40px !important;
+}
+#byname{
+	margin-left: 35px !important;
 }
 #names{
-	margin-left: 90px !important;
+	margin-left: 50px !important;
 }
 .btn{
 	margin-right: 110px !important;
 }
+div#footer-grid > div> a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+}
+body{
+	background-image: url('../images/1.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
 #keyboard{
 	align-items: center;
 	justify-content: center;
@@ -115,6 +131,34 @@ input{
 	text-decoration: none;
 	background-color: white;
 	color: #000;
+}
+#footer{
+	background-color: #477D39 !important;
+} 
+
+#footer-grid{
+	align-items: center;
+	justify-content: space-between;
+}
+#footer-grid > div > p{
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+	cursor: pointer;
+}
+#footer-grid > div > p > span{
+	font-size: 18px;
+}
+.whatsapp{
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+}
+.numb{
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	cursor: pointer;
 }
 
 @media (max-width: 600px){
@@ -138,6 +182,16 @@ input{
 	.search-sel{
 		margin-left: 110px !important;
 		width: 40px !important;
+	}
+	#date{
+		width: 40px !important;
+	}
+	.date-resp{
+		justify-content: center;
+		/*margin-left: 80px !important;*/
+	}
+	#selection{
+		/*margin-right: 105px !important;*/
 	}
 }
 @media only screen and (max-width: 390px) and (min-width: 300px){
@@ -167,4 +221,6 @@ input{
 	.input-table2{
 		width: 45px !important;
 	}
-} 
+}
+
+
